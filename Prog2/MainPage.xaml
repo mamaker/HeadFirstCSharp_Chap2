@@ -24,7 +24,7 @@
         <Button x:Name="button3" Content="Another conditional test" 
                 HorizontalAlignment="Center" Grid.Row="1" Click="button3_Click"/>
         <Button x:Name="button4" Content="A loop" Grid.Column="1" 
-                HorizontalAlignment="Center" Grid.Row="1" Click="button4_Click"/>
+                HorizontalAlignment="Center" Grid.Row="1" Click="button4_Click" Margin="302,100,302,118"/>
         <TextBlock x:Name="myLabel" HorizontalAlignment="Center" 
                 VerticalAlignment="Center"   Style="{StaticResource BodyTextBlockStyle}" 
                    Grid.Row="2" Grid.ColumnSpan="2"/>
