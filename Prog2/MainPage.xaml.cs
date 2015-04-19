@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
-namespace UseTheDebugger
+namespace Prog2
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -25,31 +25,6 @@ namespace UseTheDebugger
         public MainPage()
         {
             this.InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            int number = 15;
-            number = number + 10;
-            number = 36 * 15;
-            number = 12 - (42 / 7);
-            number += 10;
-            number *= 3;
-            number = 71 / 3;
-            int count = 0;
-            count++;
-            count--;
-            string result = "hello";
-            result += " again " + result;
-            output.Text = result;
-            result = "the value is: " + count;
-            result = "";
-            bool yesNo = false;
-            bool anotherBool = true;
-            yesNo = !anotherBool;
-
-        
-
         }
     }
 }
