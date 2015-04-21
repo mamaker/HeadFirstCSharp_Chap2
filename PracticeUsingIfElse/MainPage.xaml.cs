@@ -26,5 +26,27 @@ namespace PracticeUsingIfElse
         {
             this.InitializeComponent();
         }
+
+        private void changeText_Click(object sender, RoutedEventArgs e)
+        {
+            if (enableCheckbox.IsChecked == true)
+            {
+                if (labelToChange.Text == "Right")
+                {
+                    labelToChange.Text = "Left";
+                    labelToChange.HorizontalAlignment = HorizontalAlignment.Left;
+                }
+                else
+                {
+                    labelToChange.Text = "Right";
+                    labelToChange.HorizontalAlignment = HorizontalAlignment.Right;
+                }
+            }
+            else
+            {
+                labelToChange.Text = "Text changing is disabled";
+                labelToChange.HorizontalAlignment = HorizontalAlignment.Center;
+            }
+        }
     }
 }
